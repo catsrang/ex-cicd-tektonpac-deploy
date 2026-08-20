@@ -1,0 +1,6 @@
+apiVersion: v2
+name: demo-app
+description: GitOps target chart for the ex-cicd-tektonpac PAC demo. image.tag in values.yaml is patched by the push pipeline's update-deployment-tag Task.
+type: application
+version: 0.1.0
+appVersion: "placeholder"
